@@ -39,6 +39,8 @@ assert len(h) == 64  # SHA-256 hex
 
 Pure Python. No external packages required. This is the foundation — everything else builds on it.
 
+Tiles are signed, content-addressed training artifacts that flow between PLATO rooms and fleet agents. If you're building anything in the PLATO ecosystem, you need these types.
+
 ## Used By
 
 - `plato-training` — micro model training rooms
